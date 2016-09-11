@@ -1,0 +1,29 @@
+package BP.WF.MS;
+
+import BP.DA.*;
+import BP.En.*;
+import BP.Port.*;
+import BP.WF.*;
+
+/** 
+ 章节s
+*/
+public class ZhiDuDtls extends Entities
+{
+		///#region 方法
+	/** 
+	 得到它的 Entity 
+	*/
+	@Override
+	public Entity getGetNewEntity()
+	{
+		return new ZhiDuDtl();
+	}
+	/** 
+	 章节
+	*/
+	public ZhiDuDtls()
+	{
+	}
+		///#endregion
+}

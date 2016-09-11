@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{ margin:60px auto; font-size:12px; font-family: "Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti; width:960px; background:url(../../images/bgs.jpg) no-repeat center 100px}
+*{ margin:0px; padding:0px;}
+a{ color:#3564CE; text-decoration:none}
+
+.clear{clear:both;}
+
+
+.head{ height:52px; background:url(../../images/login_03.gif) no-repeat; margin-bottom:50px; margin-left:40px;}
+
+.login_img{float:left;; display:inline; width:473px; height:268px;}
+
+.login{/* background:url(../../images/login_082.png) no-repeat;*/ margin-top:320px}
+.login table{ margin:70px 40px;}
+.login table tr td{ padding-bottom:10px;}
+.login table input{margin-left:15px;}
+.login_input{ width:188px; height:25px; border:1px #C8C8C8 solid; line-height:25px; }
+.login_td{ line-height:29px; padding-top:20px;}
+.login_bt{ float:left; margin-right:10px; display:inline; background:url(../../images/login_button.png); width:86px; height:26px; cursor:pointer; border:none; color:#FFFFFF}
+
+
+.foot{ text-align:center; margin-top:70px; border-top:1px solid #D2D7DD; line-height:20px; padding-top:10px; font-size:11px; letter-spacing:1px }

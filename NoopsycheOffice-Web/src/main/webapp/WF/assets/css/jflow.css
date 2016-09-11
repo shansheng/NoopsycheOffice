@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+.tdMain{
+	font-size: 15px;
+}
+.titleMain
+{
+	text-align: center
+}
+.divCenter1 {
+    width: 600px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divCenter2 {
+    width: 700px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

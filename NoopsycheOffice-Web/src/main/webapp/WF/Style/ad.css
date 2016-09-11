@@ -1,0 +1,118 @@
+﻿
+.ad UL {PADDING: 0px; MARGIN: 0px;}
+.ad LI {PADDING: 0px; MARGIN: 0px;}
+.ad P {line-height:10px;}
+
+.container {
+	WIDTH: 750px;
+	HEIGHT: 170px
+}
+.container A IMG {
+	WIDTH:750px;
+	HEIGHT: 170px
+}
+.container IMG {
+	BORDER-BOTTOM-STYLE: none;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-TOP-STYLE: none;
+	BORDER-LEFT-STYLE: none
+}
+.td_f A IMG {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+.num {
+	POSITION: absolute;
+	WIDTH: 90px;
+	FLOAT: right;
+	TOP: 150px;
+	LEFT: 660px
+}
+.num LI {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 15px;
+	LIST-STYLE-TYPE: none;
+	MARGIN: 1px;
+	WIDTH: 15px;
+	FONT-FAMILY: Arial;
+	BACKGROUND: url(../../images/img/images/flashbutton.gif) no-repeat -15px 0px;
+	FLOAT: left;
+	HEIGHT: 15px;
+	COLOR: #c79f62;
+	FONT-SIZE: 12px;
+	CURSOR: pointer
+}
+.num LI.on {
+	LINE-HEIGHT: 15px;
+	WIDTH: 15px;
+	BACKGROUND: url(../../images/img/images/flashbutton.gif) no-repeat;
+	HEIGHT: 15px;
+	COLOR: #ffffff
+}
+#tab_nav tr:hover{ background:none}
+#tab_nav tr td{ width:124px;}
+#tab_navs tr:hover{ background:none}
+#tab_navs tr td{ width:284px;}
+.hoverss{ background:url(../../images/bg_tabs.jpg) no-repeat center}
+#a_1,#a_2,#a_3,#a_4{ cursor:pointer}
+.table_border{border-collapse: collapse;}
+.table_border td{ border:1px dotted #1581C5;}
+
+.pages{line-height:25px; background:url(../../images/page_19.png); margin-top:10px; margin-left:10px;/* width:98%; position:absolute; bottom:5px;*/}
+
+.pages table td.line{ background:url(../../images/page_03.png); width:10px;}
+.pages table td.sta{ width:18px;}
+
+.pages table td.next,.pages table td.pre{ width:16px;}
+.pages table td.end{ width:20px;}
+.pages table td.sta a{ background:url(../../images/page_05.png); width:18px; height:25px; display:block}
+.pages table td.next a,.pages table td.pre a{ background:url(../../images/page_07.png); width:16px; height:25px; display:block}
+.pages table td.next a{ background:url(../../images/page_13.png)}
+.pages table td.end a{ background:url(../../images/page_15.png); width:20px; height:25px; display:block} 
+.pages table td.publish a{ background:url(../../images/page_17.png); width:23px; height:25px; display:block}
+.pages table td.publish{ width:23px;}
+
+.textred{ color:#FF0000}
+.oncursor{ cursor:pointer}
+.distr{display:none}
+.disableds{ text-align:center; width:70px}
+table.td_table tr td{ border:none}
+.greys{
+    background-color:#E9E9E9;
+}
+.the_boxs{padding:8px;}
+/**#sidebar-tab{width:750px;}**/
+	#tab-title{border-bottom: 1px solid #1581C5; height:24px; margin-top:5px}
+	#tab-title .selected{color:#356aa0;border-bottom:0px;} /*标题被选中时的样式*/
+	#tab-title span{color: #555555; cursor: pointer; font-size: 12px; background:#fff;padding:4px 10px;position:relative;
+	float:left;height:14px;font-weight: bold;}
+	#tab-content .hide{display:none;} /*默认让第一块内容显示，其余隐藏*/
+	#tab-content ul{padding:5px 10px;overflow:hidden;}
+	
+	#tab-content ul li{padding-top:5px;height:20px;} 
+#tab-title span{ margin-right:5px; border:1px solid #CCC; border-bottom:none}
+
+.float_right{ float:right;}
+
+.textinputborderno{ border:none}
+
+.swicthtr{ background: #FFF url(../../images/admin_switch.gif) 0 0; width:6px;}
+.cateringUplift_one,.cateringUplift_two,.cateringUplift_three{ background:#FFFF99}
+
+.AirportHotline_ul span{ background:#99CDFF; width:120px; height:50px; text-align:center; line-height:50px; display:block; margin:0 auto; cursor:pointer}
+.AirportHotline_ul td{ height:100px}
+
+tr.tdbg_green:hover,.tdbg_green{ background:#00B050}
+tr.tdbg_yellow:hover,.tdbg_yellow{ bac
+kground:#FFFF00}
+tr.tdbg_red:hover,.tdbg_red{ background:#E43633}
+tr.tdbg_blue:hover,.tdbg_blue{ background:#0070C0}
+tr.tdbg_orange:hover,.tdbg_orange{ background:orange}
+tr.tdbg_blue:hover,.tdbg_blue2{ background:#4490C9}
+
+.searchbox table tr td.text_align_left{ text-align:left; padding-left:10px;}
+.Occurrence_search_hide{ display:none}
+.Occurrence_search_show{ cursor:pointer}

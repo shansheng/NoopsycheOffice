@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.bg{ width:100%; min-height:100%; background: url(../Img/bg-login.jpg) center center no-repeat ;}
+.bg p{ font-size:14px; font-family:"Microsoft YaHei"; color:#666; text-align:center; height:14px; margin-top:55px; clear:both;}
+.main-login{ width:600px; height:570px; margin-left:auto; margin-right:auto;}
+
+.logo-login{ padding-bottom:50px; padding-top:110px;}
+.logo-login .t{ text-align:center; height:109px;}
+.logo-login .b{ text-align:center; height:75px;}
+.tab tr td{ padding-top:10px;}
+
+.cot-login{ width:255px; height:221px; margin-left:auto; margin-right:auto; margin-top:20px;}
+.cot-login label{display:block; padding-bottom:15px; width:210px; position:relative;}
+.cot-login input.txt{display:block;  font-size:16px; font-family:"Microsoft YaHei"; padding:13px 10px; border-radius:4px; border:1px solid #b4c3cd; color:#999; background-color:#fff;}
+.cot-login input:focus.txt{ border-color:#5ca5de; box-shadow:0px 0px 10px rgba(0,0,0,0.3);}
+.cot-login input.txt-1{ width:188px;}
+.cot-login input.txt-2{ width:100px; padding-right:98px; height:16px;}
+.cot-login label .img-yzm{ position:absolute; right:11px;top:10px;}
+.cot-login input#btn{display:block; font-size:18px; font-family:"Microsoft YaHei"; color:#fff; float:left;}
+.cot-login input.btn-1{ width:116px; height:44px; background:url(../images/bg-login-btn.png) 0 0 no-repeat; border:none; cursor:pointer;}
+.cot-login input.btn-2{ width:116px; height:44px; background:url(../images/bg-login-btn.png) 0 -44px no-repeat; border:none; cursor:pointer;}
+.cot-login span{ display:block; width:94px; height:44px; line-height:44px; font-size:16px; text-align:right; font-family:"Microsoft YaHei"; color:#F30; float:left;}
+
+.w { position:absolute; right:10px; bottom:10px; width:240px; height:240px; overflow:hidden; cursor:default; -moz-user-select:none;}
+.t { overflow:hidden;}
+.winBody { height:240px; width:240px; overflow-x:hidden; overflow-y:auto;}

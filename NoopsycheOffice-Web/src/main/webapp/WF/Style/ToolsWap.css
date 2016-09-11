@@ -1,0 +1,125 @@
+#Container
+{
+    width: 1100px;
+    margin: 10px auto;
+}
+#Player
+{
+    width: 500px;
+    height: 20px;
+    padding: 1px;
+}
+#Container{
+	width:800px;
+}
+#Content{
+    height:600px;   
+    margin-top:20px;
+}
+#Content-Left
+{
+    height:450px;
+    width:600px;
+    margin:20px;
+    float:left;
+}
+#Content-Main{
+    height:60px;
+    width:60px;
+    margin:20px;
+    float:left;
+}
+#Content-Main1{
+    height:100px;
+    width:100px;
+    margin:20px;
+    float:left;
+}
+#Content-Main2{
+    height:40px;
+    width:40px;
+    margin:20px;
+    float:left;
+}
+#Content-Main3{
+    height:10px;
+    width:50px;
+    margin:20px;
+    float:left;
+}
+
+fieldset
+{
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 1px outset;
+    border-top-color: #CCCCCC;
+    border-right-color: inherit;
+    border-left-color: inherit;
+    border-width: 1px 0px 0px 0px;
+    border-style: outset none outset none;
+}
+
+legend
+{
+    font-size:14px;
+    color:Black;
+}
+
+.LabText
+{
+    color:Gray;
+}
+
+hr
+{
+    margin-bottom:10px;
+    margin-top:10px;
+    border-color:white;
+    noshade:true;
+}
+
+/* Apply these styles only when #preview-pane has
+   been placed within the Jcrop widget */
+.jcrop-holder #preview-pane {
+	display: block;
+	position: absolute;
+	z-index: 2000;
+	top: 10px;
+	right: -280px;
+	padding: 6px;
+	border: 1px rgba(0, 0, 0, .4) solid;
+	background-color: white;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* The Javascript code will set the aspect ratio of the crop
+   area based on the size of the thumbnail preview,
+   specified here */
+#preview-pane .preview-container {
+	width: 250px;
+	height: 170px;
+	overflow: hidden;
+}
+
+.CaptionMsg {
+    line-height: 34px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    font-family: 宋体;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    width: 158px;
+    margin-left: -10px;
+    padding-left: 0px;
+    background: url("../../DataUser/Style/Img/TitleMsg.png") no-repeat fixed;
+    background-repeat: no-repeat;
+}
